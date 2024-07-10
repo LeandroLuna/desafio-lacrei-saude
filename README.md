@@ -43,12 +43,12 @@ O desafio consistia em desenvolver duas páginas web interativas com roteamento 
 
 ### Testes
 
-- Realizei testes end-to-end utilizando [ferramenta de teste] para garantir a funcionalidade dos botões e a navegação entre as páginas.
+- Realizei testes unitários utilizando Jest para garantir a funcionalidade dos botões e a navegação entre as páginas.
 - Verifiquei a responsividade em vários dispositivos usando as ferramentas de desenvolvimento do Chrome.
 
 ### Deploy
 
-A aplicação foi implantada em [plataforma de deploy]. Você pode visualizá-la [aqui](deployment-link).
+A aplicação foi implantada na plataforma Vercel. Você pode visualizá-la [aqui](https://desafio-lacrei-saude-smoky.vercel.app).
 
 ## Conclusão
 
