@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '@/components/Button';
 import styled from 'styled-components';
 import Container from '@/components/Container';
+import Image from 'next/image';
 import peopleHoldingFlag from '../../public/people-holding-flag.png';
 
 const Title = styled.h1`
@@ -9,11 +10,18 @@ const Title = styled.h1`
   text-align: center;
 `;
 
-const Image = styled.img`
-  max-width: 50%;
+const ImageContainer = styled.div`
+  position: relative;
+  width: 100%;
+  max-width: 600px;
   margin: 0 auto 20px;
   border-radius: 8px;
+  overflow: hidden;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+`;
+
+const StyledImage = styled(Image)`
+  object-fit: fill;
 `;
 
 const ButtonContainer = styled.div`
@@ -26,7 +34,9 @@ export default function Home() {
   return (
     <Container>
       <Title>Bem-vindo ao Lacrei Saúde</Title>
-      <Image src={peopleHoldingFlag.src} alt="Pessoas segurando a bandeira LGBT" />
+      <ImageContainer>
+        <StyledImage src={peopleHoldingFlag} alt="Pessoas segurando a bandeira LGBT" height={400} width={600} />
+      </ImageContainer>
       <ButtonContainer>
         <Button href="/about" label="Sobre nós" />
         <Button href="/services" label="Nossos serviços" />

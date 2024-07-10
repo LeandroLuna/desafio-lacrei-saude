@@ -10,7 +10,7 @@ O desafio consistia em desenvolver duas páginas web interativas com roteamento 
 - **Três botões:** cada um com uma funcionalidade única, adicionando interatividade e fazendo link com páginas da Lacrei Saúde.
 - **Conformidade com o guia de estilo:** segui rigorosamente o guia de estilo para garantir a coesão visual e o alinhamento com a marca.
 - **Teste e responsividade:** realizei testes para garantir a responsividade e documentei todo o processo no README.
-- **Deploy:** fiz o deploy da aplicação e disponibilizei o link.
+- **Deploy:** fiz o deploy da aplicação no Vercel.
 
 ## Especificações Técnicas
 
@@ -51,8 +51,8 @@ O desafio consistia em desenvolver duas páginas web interativas com roteamento 
 
 ### Botões e interatividade
 
-2. **Botão 2:** link para a página de sobre.
-1. **Botão 1:** link para a página de serviços.
+1. **Botão 1:** link para a página de sobre.
+2. **Botão 2:** link para a página de serviços.
 3. **Botão 3:** link para a página de contato.
 
 ### Implementações adicionais
