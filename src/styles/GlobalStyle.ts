@@ -15,10 +15,6 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     color: inherit;
   }
-
-  button {
-    font-family: inherit;
-  }
 `;
 
 export default GlobalStyle;

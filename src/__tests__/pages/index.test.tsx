@@ -7,16 +7,16 @@ describe('Home Component', () => {
   it('renders welcome message and buttons', () => {
     const { getByText, getByRole } = render(<Home />);
 
-    const welcomeMessage = getByText('Welcome to Lacrei Saúde');
+    const welcomeMessage = getByText('Bem-vindo ao Lacrei Saúde');
     expect(welcomeMessage).toBeInTheDocument();
 
-    const aboutButton = getByRole('button', { name: 'About Us' });
+    const aboutButton = getByRole('button', { name: 'Sobre nós' });
     expect(aboutButton).toBeInTheDocument();
 
-    const servicesButton = getByRole('button', { name: 'Our Services' });
+    const servicesButton = getByRole('button', { name: 'Nossos serviços' });
     expect(servicesButton).toBeInTheDocument();
 
-    const contactButton = getByRole('button', { name: 'Contact Us' });
+    const contactButton = getByRole('button', { name: 'Contate-nos' });
     expect(contactButton).toBeInTheDocument();
   });
 });
