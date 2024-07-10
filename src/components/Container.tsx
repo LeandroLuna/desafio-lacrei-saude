@@ -9,6 +9,7 @@ const StyledContainer = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 100vh;
 
     @media (min-width: 768px) and (max-width: 1199px) {
       max-width: 768px;
